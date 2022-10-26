@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="styles.css" />
+
+h1 { 
+    color: #f04c25;
+    font-size: 24px;
+    }
+
+h2 {
+    color: #009cab;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;	
+    }
+
+h3 {
+    color: #009cab;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;	
+    }
+
+h4 { 
+    color: #000000;
+    font-size: 20px;
+    }	
+
+    figure {
+        float: left;
+        margin: 10px 10px;
+         }	
+p
+    {
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 0px;
+    height: 20px;
+    }
