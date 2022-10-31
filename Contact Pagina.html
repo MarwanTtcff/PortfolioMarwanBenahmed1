@@ -23,6 +23,8 @@
 
 			<li><a href="Contact Pagina.html">Contact</a></li>
 
+			<li><a href="Werkplekleren pagina.html">Werkplekleren</a></li>
+
 		</ul>
 	</nav>
 
@@ -36,28 +38,56 @@
 	</header>
 
 
-	<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css" />
-	<link rel="stylesheet" href="style.css" <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" />
 
 </head>
 
-
-
-
 <body>
+    
+<br><br>
+<h1 class="Contactformulier">Contacteer mij</h1>
 
 
+<form action="post-demo.php" method="post">
+<p>	Gelieve uw contact gegevens correct in te vullen !!</p>
+
+	<label for="firstname">Voornaam <span class="ster">*</span></label>
+	<input type="text"placeholder="Vul je voornaam in">
 
 
-	<br>
-	<br>
-	<br>
+	<label for="firstname">Familienaam <span class="ster">*</span></label>
+	<input type="text" placeholder="Vul je Familienaam in">
+
+	<label for="firstname">Email <span class="ster">*</span></label>
+	<input type="text" placeholder="Vul je huidige email adres in">
+
+	<label for="firstname">Telefoonnummer <span class="ster">*</span></label>
+  <input type="tel" id="phone" name="phone" placeholder="Vul je Telefoonnummer in (+32)">
+
+<br>
 
 
-	shsh
+	<label for="questionType">Soort vraag</label>
+	<select name="Type-vraag" id="questionType">
+	  <option value="algemeen">Algemene vraag</option>
+	  <option value="andere">Andere vraag</option></select>
+	  
+	  
+	<label for="question">Uw bericht</label>
+	<textarea name="Vraag" id="question" cols="30" rows="10" placeholder="Type hier uw vraag.."></textarea>
+	
 
 
+	<label for="newsletter">Onze nieuwsbrief ontvangen?</label>
+	<input type="checkbox" name="Nieuwsbrief" id="newsletter" value="ja"/>
+	 <input type="submit" value="Verstuur" />
+	
+	 
+	
+	</form>
 
 </body>
 
@@ -66,9 +96,38 @@
 
 
 <style>
-	nav {
+
+
+body {
+		width: 1350px;
+		margin: 60px auto;
+		padding: 60px;
+		background-image: none;
+		background-color: #24222277;
+	}
+
+	html {
+		background-color: rgb(45, 47, 47);
+		background-image: url(Photos/JMgY4f.webp);
+		object-fit: cover;
+		background-size: cover;
+	}
+
+
+
+	.fa-home {
+		float: center;
+		color: #FFFFFF;
+		font-size: 22px;}
+
+
+
+		nav {
 		text-align: center;
+		align-items: center;
 		font-size: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+
 	}
 
 	nav a {
@@ -86,11 +145,11 @@
 	}
 
 	nav a:hover {
-		color: #93afbf;
+		color: wheat;
 	}
 
 	nav a:active {
-		color: #93afbf;
+		color: #DCC80D;
 	}
 
 	.page-header {
@@ -98,32 +157,8 @@
 		font-size: 32px;
 		align-items: center;
 		text-align: center;
-		margin-top: 130px;
-		margin-right: px;
-	}
-
-
-
-	h1 {
-		font-weight: 800;
-	}
-
-	//Marwan Benahmed// 	
-
-
-
-	.mijnachtergrond {
-		line-height: 26px;
-		margin-bottom: 35px;
-	}
-
-	.mijnpassies {
-		margin-bottom: 35px;
-		color: #FFFFFF;
-	}
-
-	.toekomstperspectief {
-		margin-bottom: 45px;
+		margin-top: 90px;
+		margin-left: 325px;
 	}
 
 
@@ -133,74 +168,142 @@
 	}
 
 
+	h1 {
+	color: #DCC80D;
+	font-weight: 800;
+font-size: 32px;}
 
-	h2 {
-		color: #FFFFFF;
-		font-size: 20px;
-		line-height: 26px;
-		font-weight: bold;
-		text-align: left;
-	}
+	h2 {color: #FFFFFF;
+	text-align: center;
+margin-bottom: 5px;}
 
-	h3 {
-		color: #FFFFFF;
-		font-size: 20px;
-		line-height: 20px;
-		font-weight: bold;
-		text-align: left;
-	}
-
-	h4 {
-		color: #FFFFFF;
-		font-size: 20px;
-		line-height: 26px;
-		font-weight: bold;
-		text-align: left;
-	}
-
-
-	p {
-		color: #FFFFFF;
-		margin-top: 15px;
-	}
+.Contactformulier {
+text-align: center;
+color: #FFFFFF;
+}
 
 
 
-	body {
-		width: 1200px;
-		margin: 60px auto;
-		padding: 60px;
-		background-color: #24222277;
-		background-image: url();
-	}
+
+fieldset {
+border-radius: 1em;
+border-color: #DCC80D; 
+width: 360px;
+border-width: 3px;
+text-align: center;
+margin: auto;
+display: block;
+margin-top: 0px;
+margin-bottom: 70px;
+}
 
 
-	html {
-		background-color: rgb(45, 47, 47);
-		background-image: url(Photos/JMgY4f.webp);
-		object-fit: cover;
-		background-size: cover;
-	}
+label {color: #FFFFFF;
+margin: 0px;
+margin-bottom: 20px;
+float: center;
+text-align: center;
+font-size: 16px;}
+
+input[type=text] {width: 250px;
+border-radius: 10px;
+border-color: wheat;
+margin: auto;
+display: block;
+margin-top: 20px;
+
+}
 
 
-	aside {
-
-		width: 307px;
-		float: right;
-		background-color: transparent;
-		color: white;
-		padding: 100px;
-		margin: 10px;
-		height: 350px;
-		border: 2px solid #ddd;
-		display: grid;
-
-	}
+form {
+    
+	font-size: 20px;
+    padding: 40px;
+    border-radius: 10px;
+	background-color: #24222277;
+    object-fit: cover;
+    background-size: cover;
+		width: 600px;
+		margin-top: 20px;
+    }
 
 
-	.fa-home {
-		float: center;
-		color: #FFFFFF;
-		font-size: 22px;}
-		
+
+form input{text-align: center;}
+
+textarea {border-radius: 10px;
+margin-top: 10px;
+text-align: center;
+width: 500px;
+margin: auto;
+display: block;
+margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+        text-align: center;
+		font-style: italic;
+  font-size: 1em;
+  padding: 5px;
+  line-height: 40px;
+  
+      }
+
+
+	  input[type=date] {width: 250px;
+border-radius: 10px;
+border-color: wheat;
+margin: auto;
+display: block;
+margin-top: px;
+font-size: 16px;
+}
+
+input[type=tel] {width: 250px;
+border-radius: 10px;
+border-color: wheat;
+margin: auto;
+display: block;
+margin-top: px;
+
+}
+
+
+
+option {margin: auto;
+display: block;
+font-size: 15px;
+}
+
+
+select {width: 155px;
+font-size: 15px;
+margin: auto;}
+
+
+.ster {color: red;
+font-size: 11px;}
+
+
+p {color: antiquewhite;
+font-size: 12px;
+margin-bottom: 40px;
+text-align: center;}
+
+::placeholder {font-size: 13px;}
+
+
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+input[type=checkbox] {
+    display: block;
+    margin: 0 auto;
+}
+
+
 </style>
