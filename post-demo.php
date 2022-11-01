@@ -6,7 +6,7 @@
   <title>Post resultaat</title>
 </head>
 <body>
-<form action="post-demo.php" method="post">
+  <form action="post-demo.php" method="post">
   <h1>Je post data</h1>
   <p>Normaal sla je die op in een databank of verstuur je ze in een e-mail, maar als demo ben ik gewoon een echo.</p>
   <pre>
@@ -20,6 +20,5 @@ echo
 'Nieuwbrief: ' . htmlspecialchars($_POST["Nieuwsbrief"]);
 ?>
   </pre>
-  </form>
 </body>
 </html>
