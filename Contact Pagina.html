@@ -41,52 +41,53 @@
 	<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
-    
-<br><br>
-<h1 class="Contactformulier">Contacteer mij</h1>
+
+	<br><br>
+	<h1 class="Contactformulier">Contacteer mij</h1>
 
 
-<form action="post-demo.php" method="post">
-<p>	Gelieve uw contact gegevens correct in te vullen !!</p>
+	<form action="post-demo.php" method="post">
+		<p> Gelieve uw contact gegevens correct in te vullen !!</p>
 
-	<label for="firstname">Voornaam <span class="ster">*</span></label>
-	<input type="text"placeholder="Vul je voornaam in">
-
-
-	<label for="firstname">Familienaam <span class="ster">*</span></label>
-	<input type="text" placeholder="Vul je Familienaam in">
-
-	<label for="firstname">Email <span class="ster">*</span></label>
-	<input type="text" placeholder="Vul je huidige email adres in">
-
-	<label for="firstname">Telefoonnummer <span class="ster">*</span></label>
-  <input type="tel" id="phone" name="phone" placeholder="Vul je Telefoonnummer in (+32)">
-
-<br>
+		<label for="firstname">Voornaam <span class="ster">*</span></label>
+		<input type="text" placeholder="Vul je voornaam in">
 
 
-	<label for="questionType">Soort vraag</label>
-	<select name="Type-vraag" id="questionType">
-	  <option value="algemeen">Algemene vraag</option>
-	  <option value="andere">Andere vraag</option></select>
-	  
-	  
-	<label for="question">Uw bericht</label>
-	<textarea name="Vraag" id="question" cols="30" rows="10" placeholder="Type hier uw vraag.."></textarea>
-	
+		<label for="firstname">Familienaam <span class="ster">*</span></label>
+		<input type="text" placeholder="Vul je Familienaam in">
+
+		<label for="firstname">Email <span class="ster">*</span></label>
+		<input type="text" placeholder="Vul je huidige email adres in">
+
+		<label for="firstname">Telefoonnummer <span class="ster">*</span></label>
+		<input type="tel" id="phone" name="phone" placeholder="Vul je Telefoonnummer in (+32)">
+
+		<br>
 
 
-	<label for="newsletter">Onze nieuwsbrief ontvangen?</label>
-	<input type="checkbox" name="Nieuwsbrief" id="newsletter" value="ja"/>
-	 <input type="submit" value="Verstuur" />
-	
-	 
-	
+		<label for="questionType">Soort vraag</label>
+		<select name="Type-vraag" id="questionType">
+			<option value="algemeen">Algemene vraag</option>
+			<option value="andere">Andere vraag</option>
+		</select>
+
+
+		<label for="question">Uw bericht</label>
+		<textarea name="Vraag" id="question" cols="30" rows="10" placeholder="Type hier uw vraag.."></textarea>
+
+
+
+		<label for="newsletter">Onze nieuwsbrief ontvangen?</label>
+		<input type="checkbox" name="Nieuwsbrief" id="newsletter" value="ja" />
+		<input type="submit" value="Verstuur" />
+
+
+
 	</form>
 
 </body>
@@ -96,9 +97,7 @@
 
 
 <style>
-
-
-body {
+	body {
 		width: 1300px;
 		margin: 60px auto;
 		padding: 60px;
@@ -109,7 +108,7 @@ body {
 
 	html {
 		background-color: rgb(45, 47, 47);
-		background-image: url(https://thumbs.gfycat.com/AffectionateDesertedGoa-max-1mb.gif);		
+		background-image: url(https://thumbs.gfycat.com/AffectionateDesertedGoa-max-1mb.gif);
 	}
 
 
@@ -117,11 +116,12 @@ body {
 	.fa-home {
 		float: center;
 		color: #FFFFFF;
-		font-size: 22px;}
+		font-size: 22px;
+	}
 
 
 
-		nav {
+	nav {
 		text-align: center;
 		align-items: center;
 		margin-left: 48px;
@@ -169,141 +169,160 @@ body {
 
 
 	h1 {
-	color: #DCC80D;
-	font-weight: 800;
-font-size: 32px;}
+		color: #DCC80D;
+		font-weight: 800;
+		font-size: 32px;
+	}
 
-	h2 {color: #FFFFFF;
-	text-align: center;
-margin-bottom: 5px;}
+	h2 {
+		color: #FFFFFF;
+		text-align: center;
+		margin-bottom: 5px;
+	}
 
-.Contactformulier {
-text-align: center;
-margin: auto;
-color: #FFFFFF;
-margin-left: 56px;}
-
-
-
-
-fieldset {
-border-radius: 1em;
-border-color: #DCC80D; 
-width: 360px;
-border-width: 3px;
-text-align: center;
-margin: auto;
-display: block;
-margin-top: 0px;
-margin-bottom: 70px;
-}
+	.Contactformulier {
+		text-align: center;
+		margin: auto;
+		color: #FFFFFF;
+		margin-left: 56px;
+	}
 
 
-label {color: #FFFFFF;
-margin: 0px;
-margin-bottom: 20px;
-float: center;
-text-align: center;
-font-size: 16px;}
-
-input[type=text] {width: 250px;
-border-radius: 10px;
-border-color: wheat;
-margin: auto;
-display: block;
-margin-top: 20px;
-
-}
 
 
-form {
-    
-	font-size: 20px;
-    padding: 40px;
-    border-radius: 10px;
-	background-color: #24222277;
+	fieldset {
+		border-radius: 1em;
+		border-color: #DCC80D;
+		width: 360px;
+		border-width: 3px;
+		text-align: center;
+		margin: auto;
+		display: block;
+		margin-top: 0px;
+		margin-bottom: 70px;
+	}
+
+
+	label {
+		color: #FFFFFF;
+		margin: 0px;
+		margin-bottom: 20px;
+		float: center;
+		text-align: center;
+		font-size: 16px;
+	}
+
+	input[type=text] {
+		width: 250px;
+		border-radius: 10px;
+		border-color: wheat;
+		margin: auto;
+		display: block;
+		margin-top: 20px;
+
+	}
+
+
+	form {
+
+		font-size: 20px;
+		padding: 40px;
+		border-radius: 10px;
+		background-color: #24222277;
 		width: 500px;
 		margin-top: 20px;
 		margin-right: 310px;
-    }
+	}
 
 
 
-form input{text-align: center;}
+	form input {
+		text-align: center;
+	}
 
-textarea {border-radius: 10px;
-margin-top: 10px;
-text-align: center;
-width: 400px;
-margin: auto;
-display: block;
-margin-top: 20px;
-}
+	textarea {
+		border-radius: 10px;
+		margin-top: 10px;
+		text-align: center;
+		width: 400px;
+		margin: auto;
+		display: block;
+		margin-top: 20px;
+	}
 
-::-webkit-input-placeholder {
-        text-align: center;
+	::-webkit-input-placeholder {
+		text-align: center;
 		font-style: italic;
-  font-size: 1em;
-  padding: 5px;
-  line-height: 40px;
-  
-      }
+		font-size: 1em;
+		padding: 5px;
+		line-height: 40px;
+
+	}
 
 
-	  input[type=date] {width: 250px;
-border-radius: 10px;
-border-color: wheat;
-margin: auto;
-display: block;
-margin-top: px;
-font-size: 16px;
-}
+	input[type=date] {
+		width: 250px;
+		border-radius: 10px;
+		border-color: wheat;
+		margin: auto;
+		display: block;
+		margin-top: px;
+		font-size: 16px;
+	}
 
-input[type=tel] {width: 250px;
-border-radius: 10px;
-border-color: wheat;
-margin: auto;
-display: block;
-margin-top: px;
+	input[type=tel] {
+		width: 250px;
+		border-radius: 10px;
+		border-color: wheat;
+		margin: auto;
+		display: block;
+		margin-top: px;
 
-}
-
-
-
-option {margin: auto;
-display: block;
-font-size: 15px;
-}
+	}
 
 
-select {width: 155px;
-font-size: 15px;
-margin: auto;}
+
+	option {
+		margin: auto;
+		display: block;
+		font-size: 15px;
+	}
 
 
-.ster {color: red;
-font-size: 11px;}
+	select {
+		width: 155px;
+		font-size: 15px;
+		margin: auto;
+	}
 
 
-p {color: antiquewhite;
-font-size: 12px;
-margin-bottom: 40px;
-text-align: center;}
-
-::placeholder {font-size: 13px;}
+	.ster {
+		color: red;
+		font-size: 11px;
+	}
 
 
-input[type=submit] {
-    display: block;
-    margin: 0 auto;
-	font-size: 15px;
-	margin-top: 20px;
-}
+	p {
+		color: antiquewhite;
+		font-size: 12px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
 
-input[type=checkbox] {
-    display: block;
-    margin: 0 auto;
-}
+	::placeholder {
+		font-size: 13px;
+	}
 
 
+	input[type=submit] {
+		display: block;
+		margin: 0 auto;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+
+	input[type=checkbox] {
+		display: block;
+		margin: 0 auto;
+	}
 </style>
